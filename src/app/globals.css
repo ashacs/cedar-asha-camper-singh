@@ -1,7 +1,15 @@
 :root {
+  --nav-height: 80px;
+  --nav-border-width: 1px;
+}
+
+main {
+  height: calc(100vh - var(--nav-height) - var(--nav-border-width));
 }
 
 html,
 body {
+  margin: 0;
   max-width: 100vw;
+  background-color: #f2f8ff;
 }
