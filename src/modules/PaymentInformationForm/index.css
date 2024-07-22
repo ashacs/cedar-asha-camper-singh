@@ -1,0 +1,29 @@
+.payment-information-form_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.payment-information-form_input {
+  grid-column: span 2;
+}
+
+.payment-information-form_input__narrow {
+  grid-column: span 1;
+}
+
+.payment-information-form_submit {
+  grid-column: span 2;
+  background-color: #3667e9;
+  color: white;
+  width: 100%;
+  padding: 12px 40px;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  border: none;
+  cursor: pointer;
+}

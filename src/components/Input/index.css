@@ -1,0 +1,33 @@
+.input_label {
+  padding-bottom: 8px;
+  color: #65657b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.input {
+  box-sizing: border-box;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #6d7088;
+  padding: 12px 16px;
+  width: 100%;
+}
+
+.input__error {
+  border-color: #c34648;
+}
+
+.input_error-message {
+  display: inline-block;
+  color: #c34648;
+  margin-top: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
