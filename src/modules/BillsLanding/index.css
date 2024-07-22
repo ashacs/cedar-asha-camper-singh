@@ -1,0 +1,52 @@
+.bills-landing_container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.bills-landing_hero {
+  margin: auto;
+  padding: 56px 12px 48px 12px;
+}
+
+.bills-landing_amount-due-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  max-width: 376px;
+  margin: auto;
+}
+
+.bills-landing_amount-due-label {
+  color: #65657b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.bills-landing_amount-due-value {
+  color: #13126c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.bills-landing_payment-link {
+  background-color: #3667e9;
+  color: white;
+  width: 100%;
+  padding: 12px 40px;
+  border-radius: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-decoration: none;
+}
