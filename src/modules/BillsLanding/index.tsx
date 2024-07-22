@@ -27,8 +27,7 @@ export default function BillsLanding() {
             ${(Math.round(amountDue * 100) / 100).toFixed(2)}
           </span>
 
-          {/* TODO link to payment page */}
-          <Link href="" className="bills-landing_payment-link">
+          <Link href="/payment" className="bills-landing_payment-link">
             Pay total
           </Link>
         </div>

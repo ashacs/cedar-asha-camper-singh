@@ -1,0 +1,12 @@
+.payment-stepper_container {
+  background-color: white;
+}
+
+@media (min-width: 1080px) {
+  .payment-stepper_container {
+    width: 576px;
+    margin: auto;
+    margin-top: 24px;
+    border-radius: 16px;
+  }
+}

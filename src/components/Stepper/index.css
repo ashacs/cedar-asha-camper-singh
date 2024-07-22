@@ -1,0 +1,54 @@
+.stepper_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stepper_step-content {
+  padding: 0 32px 0 32px;
+}
+
+[aria-current="true"] .stepper_step-content {
+  padding-bottom: 32px;
+}
+
+.stepper_step:not(:last-child) {
+  border-bottom: 1px solid #e7e9ef;
+}
+
+.stepper_step-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 64px;
+}
+
+.stepper_step-number {
+  width: 24px;
+  height: 24px;
+  color: #65657b;
+  background: #f3f4f7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+[aria-current="true"] .stepper_step-number {
+  background: #3667e9;
+  color: white;
+}
+
+.stepper_step-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #65657b;
+}
+
+[aria-current="true"] .stepper_step-title {
+  color: #171731;
+}
