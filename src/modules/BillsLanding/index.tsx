@@ -3,6 +3,7 @@ import Hero from "../../components/Hero/index";
 import "./index.css";
 import Drawer from "../../components/Drawer/index";
 import Link from "next/link";
+import currency from "../../utils/currency";
 
 export default function BillsLanding() {
   const { user, bills } = data;
@@ -24,7 +25,7 @@ export default function BillsLanding() {
         <div className="bills-landing_amount-due-container">
           <span className="bills-landing_amount-due-label">Total due</span>
           <span className="bills-landing_amount-due-value">
-            ${(Math.round(amountDue * 100) / 100).toFixed(2)}
+            {currency(amountDue)}
           </span>
 
           <Link href="/payment" className="bills-landing_payment-link">

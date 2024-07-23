@@ -4,11 +4,19 @@
   padding: 0;
 }
 
+.stepper_step__active {
+  color: #171731;
+}
+
+.stepper_step__disabled {
+  color: #8a8a97;
+}
+
 .stepper_step-content {
   padding: 0 32px 0 32px;
 }
 
-[aria-current="true"] .stepper_step-content {
+.stepper_step__active .stepper_step-content {
   padding-bottom: 32px;
 }
 
@@ -26,7 +34,6 @@
 .stepper_step-number {
   width: 24px;
   height: 24px;
-  color: #65657b;
   background: #f3f4f7;
   border-radius: 50%;
   display: flex;
@@ -35,7 +42,7 @@
   font-weight: 700;
 }
 
-[aria-current="true"] .stepper_step-number {
+.stepper_step__active .stepper_step-number {
   background: #3667e9;
   color: white;
 }
@@ -46,9 +53,8 @@
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #65657b;
 }
 
-[aria-current="true"] .stepper_step-title {
-  color: #171731;
+.stepper_step__disabled .stepper_step-title {
+  color: #65657b;
 }

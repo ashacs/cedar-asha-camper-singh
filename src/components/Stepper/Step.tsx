@@ -2,17 +2,20 @@ import { ReactNode } from "react";
 import "./index.css";
 
 type Props = {
+  id: string;
   index: number;
   title: ReactNode;
   children: ReactNode;
-  isActive: boolean;
+  status: "active" | "disabled" | "inactive";
 };
 
 export default function Step(props: Props) {
-  const { index, title, children, isActive } = props;
+  const { index, title, children, status } = props;
+  const className = `stepper_step stepper_step__${status}`;
+  const isActive = status === "active";
 
   return (
-    <li className="stepper_step" aria-current={isActive ?? "step"}>
+    <li className={className} aria-current={isActive ?? "step"}>
       <div className="stepper_step-content">
         <div className="stepper_step-header">
           <span className="stepper_step-number">{index + 1}</span>
