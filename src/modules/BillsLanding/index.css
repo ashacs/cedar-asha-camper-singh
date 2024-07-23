@@ -20,8 +20,7 @@
 
 .bills-landing_amount-due-label {
   color: #65657b;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size-sm);
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -29,21 +28,20 @@
 }
 
 .bills-landing_amount-due-value {
-  color: #13126c;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 28px;
+  color: var(--color-text-emphasis);
+  font-family: var(--font-family-emphasis);
+  font-size: var(--font-size-xl);
   font-weight: 700;
   line-height: 36px;
 }
 
 .bills-landing_payment-link {
-  background-color: #3667e9;
-  color: white;
+  background-color: var(--color-button-primary);
+  color: var(--color-white);
   width: 100%;
   padding: 12px 40px;
   border-radius: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size-sm);
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;

@@ -1,8 +1,7 @@
 .input_label {
   padding-bottom: 8px;
   color: #65657b;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: var(--font-size-xs);
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.2px;
@@ -25,8 +24,7 @@
   display: inline-block;
   color: #c34648;
   margin-top: 4px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: var(--font-size-xs);
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.2px;

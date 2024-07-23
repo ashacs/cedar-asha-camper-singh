@@ -1,5 +1,5 @@
 .payment-stepper_container {
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 @media (min-width: 1080px) {

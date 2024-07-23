@@ -1,5 +1,5 @@
 .drawer_container {
-  background-color: white;
+  background-color: var(--color-white);
   height: 100%;
   padding: 32px;
   border-radius: 32px 32px 0px 0px;

@@ -7,17 +7,16 @@
 }
 
 .hero_title {
-  color: #13126c;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 28px;
+  color: var(--color-text-emphasis);
+  font-family: var(--font-family-emphasis);
+  font-size: var(--font-size-xl);
   font-weight: 700;
   line-height: 36px;
 }
 
 .hero-description {
   color: #171731;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size-sm);
   font-weight: 400;
   letter-spacing: 0.2px;
   line-height: 24px;
